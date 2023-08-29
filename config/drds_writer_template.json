@@ -1,0 +1,17 @@
+{
+  "name": "drdswriter",
+  "parameter": {
+    "username": "",
+    "password": "",
+    "writeMode": "",
+    "preSql": [],
+    "postSql": [],
+    "column": [],
+    "connection": [
+      {
+        "table": [],
+        "jdbcUrl": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hbase11xwriter",
+  "parameter": {
+    "hbaseConfig": {
+      "hbase.rootdir": "",
+      "hbase.cluster.distributed": "",
+      "hbase.zookeeper.quorum": ""
+    },
+    "table": "",
+    "mode": "",
+    "rowkeyColumn": [
+    ],
+    "column": [
+    ],
+    "encoding": ""
+  }
+}

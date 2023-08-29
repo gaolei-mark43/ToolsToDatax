@@ -1,0 +1,37 @@
+{
+  "source": {
+    "type": "mysql",
+    "url": "jdbc:mysql://10.124.144.112:3306/test_ddzx_bpm?useUnicode=true&characterEncoding=UTF-8",
+
+    "port":3306,
+    "username": "test_ddzx_bpm",
+    "password": "test_Ddzx_ddb02",
+    "ip": "10.124.144.112",
+    "dbname": "test_ddzx_bpm",
+    "where": "",
+    "content": [
+{"table": "sql_config", "column": []},
+{"table": "td_s_dataright_wildcard_define", "column": []},
+{"table": "td_s_menu", "column": []},
+{"table": "td_s_operator_role", "column": []},
+{"table": "td_s_role_dataright", "column": []},
+{"table": "td_s_role_menu", "column": []},
+{"table": "user_info", "column": []},
+{"table": "user_role", "column": []},
+{"table": "wf_activity_define", "column": []},
+{"table": "wf_process_activity_define", "column": []},
+{"table": "wf_process_define", "column": []},
+{"table": "wf_process_define_his", "column": []},
+{"table": "wf_process_line_define", "column": []}
+    ]
+  },
+  "target": {
+	"type": "mysql",
+    "url": "jdbc:mysql://10.124.148.102:3306/preddzx_bpm?useUnicode=true&characterEncoding=UTF-8",
+
+    "username": "preddzx_bpm",
+    "password": "PREddzx_2",
+    "writeMode": "insert",
+    "preSql": ""
+  }
+}

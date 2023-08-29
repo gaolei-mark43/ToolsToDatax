@@ -1,0 +1,38 @@
+{
+  "source": {
+    "type": "mysql",
+    "url": "jdbc:mysql://10.124.144.112:3306/test_ddzx_ptm?useUnicode=true&characterEncoding=UTF-8",
+
+    "port":3306,
+    "username": "test_ddzx_ptm",
+    "password": "test_Ddzx_ddb04",
+    "ip": "10.124.144.112",
+    "dbname": "test_ddzx_ptm",
+    "where": "",
+    "content": [
+{"table": "sql_config", "column": []},
+{"table": "td_s_menu", "column": []},
+{"table": "td_s_operator_role", "column": []},
+{"table": "td_s_role_menu", "column": []},
+{"table": "td_s_task", "column": []},
+{"table": "td_s_task_exec_host", "column": []},
+{"table": "td_s_task_host_reource", "column": []},
+{"table": "td_s_task_log", "column": []},
+{"table": "td_s_task_log_detail", "column": []},
+{"table": "td_s_task_redo_log", "column": []},
+{"table": "td_s_task_release", "column": []},
+{"table": "td_s_task_sub", "column": []},
+{"table": "user_info", "column": []},
+{"table": "user_role", "column": []}
+    ]
+  },
+  "target": {
+	"type": "mysql",
+    "url": "jdbc:mysql://10.124.148.102:3306/preddzx_ptm?useUnicode=true&characterEncoding=UTF-8",
+
+    "username": "preddzx_ptm",
+    "password": "PREddzx_4",
+    "writeMode": "insert ignore",
+    "preSql": ""
+  }
+}

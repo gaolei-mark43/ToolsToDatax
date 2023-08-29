@@ -1,0 +1,15 @@
+{
+  "name": "mysqlwriter",
+  "parameter": {
+    "username": "",
+    "password": "",
+    "writeMode": "",
+    "column": [],
+    "connection": [
+      {
+        "table": [],
+        "jdbcUrl": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mysqlreader",
+  "parameter": {
+    "username": "",
+    "password": "",
+    "where": "",
+    "column": [],
+    "connection": [
+      {
+        "table": [],
+        "jdbcUrl": []
+      }
+    ]
+  }
+}

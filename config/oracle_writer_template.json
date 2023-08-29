@@ -1,0 +1,17 @@
+{
+  "name": "oraclewriter",
+  "parameter": {
+    "username": "",
+    "password": "",
+    "preSql": [],
+    "postSql": [],
+    "session": [],
+    "column": [],
+    "connection": [
+      {
+        "table": [],
+        "jdbcUrl": ""
+      }
+    ]
+  }
+}

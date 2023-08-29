@@ -1,0 +1,15 @@
+{
+  "job": {
+    "setting": {
+      "speed": {
+        "channel": 8
+      },
+      "errorLimit": {
+        "record": 0,
+        "percentage": 0
+      }
+    },
+    "content": [
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "source": {
+    "type": "mysql",
+    "url": "jdbc:mysql://10.124.144.112:3306/test_ddzx_mt?useUnicode=true&characterEncoding=UTF-8",
+
+    "port":3306,
+    "username": "test_ddzx_mt",
+    "password": "test_Ddzx_ddb03",
+    "ip": "10.124.144.112",
+    "dbname": "test_ddzx_mt",
+    "where": "",
+    "content": [
+{"table": "mt_param_enum_trans", "column": []},
+{"table": "mt_param_enum_trans_value", "column": []},
+{"table": "mt_param_msg_leaf_config", "column": []},
+{"table": "mt_param_msg_publish", "column": []},
+{"table": "mt_param_service", "column": []},
+{"table": "mt_param_service_param", "column": []},
+{"table": "mt_param_service_request_param", "column": []},
+{"table": "mt_param_target_msg_config", "column": []},
+{"table": "mt_static_param", "column": []},
+{"table": "sc_area", "column": []},
+{"table": "sc_depart", "column": []},
+{"table": "sc_funcright", "column": []},
+{"table": "sc_role", "column": []},
+{"table": "sc_role_funcright", "column": []},
+{"table": "sc_staff", "column": []},
+{"table": "sc_staff_funcright", "column": []},
+{"table": "sc_staff_login_log", "column": []},
+{"table": "sc_staff_password", "column": []},
+{"table": "sc_staff_role", "column": []},
+{"table": "sql_config", "column": []},
+{"table": "td_s_cache", "column": []}
+    ]
+  },
+  "target": {
+	"type": "mysql",
+    "url": "jdbc:mysql://10.124.148.102:3306/preddzx_mt?useUnicode=true&characterEncoding=UTF-8",
+
+    "username": "preddzx_mt",
+    "password": "PREddzx_3",
+    "writeMode": "insert ignore",
+    "preSql": ""
+  }
+}
